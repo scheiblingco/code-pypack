@@ -1,0 +1,45 @@
+{
+    "name": "code-pypack",
+    "displayName": "Code PyPack",
+    "description": "VS Code extension package for Python development.",
+    "version": "0.0.2",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "private": false,
+    "icon": "images/icon128.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/scheiblingco/code-pypack"
+    },
+    "bugs": {
+        "url": "https://github.com/scheiblingco/code-pypyack/issues"
+    },
+    "author": {
+        "name": "Scheibling Consulting",
+        "email": "it@scheibling.se"
+    },
+    "publisher": "scheiblingco",
+    "extensionPack": [
+        "ms-python.python", 
+        "ms-python.vscode-pylance", 
+        "ms-python.pylint",
+        "redhat.vscode-yaml",
+        "wholroyd.jinja",
+        "njqdev.vscode-python-typehint",
+        "donjayamanne.python-environment-manager", 
+        "njpwerner.autodocstring", 
+        "ms-toolsai.jupyter", 
+        "ms-toolsai.jupyter-renderers", 
+        "KevinRose.vsc-python-indent", 
+        "hbenl.vscode-test-explorer", 
+        "littlefoxteam.vscode-python-test-adapter", 
+        "batisteo.vscode-django",
+        "2gua.rainbow-brackets",
+        "GitHub.copilot", 
+        "VisualStudioExptTeam.vscodeintellicode"
+    ]
+}
