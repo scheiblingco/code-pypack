@@ -2,7 +2,7 @@
     "name": "code-pypack",
     "displayName": "Code PyPack",
     "description": "VS Code extension package for Python development.",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "engines": {
         "vscode": "^1.60.0"
     },
@@ -26,7 +26,8 @@
     "extensionPack": [
         "ms-python.python", 
         "ms-python.vscode-pylance", 
-        "ms-python.pylint",
+        "charliermarsh.ruff",
+        "ms-python.black-formatter",
         "redhat.vscode-yaml",
         "wholroyd.jinja",
         "njqdev.vscode-python-typehint",
@@ -37,9 +38,6 @@
         "KevinRose.vsc-python-indent", 
         "hbenl.vscode-test-explorer", 
         "littlefoxteam.vscode-python-test-adapter", 
-        "batisteo.vscode-django",
-        "2gua.rainbow-brackets",
-        "GitHub.copilot", 
-        "VisualStudioExptTeam.vscodeintellicode"
+        "GitHub.copilot"
     ]
 }
